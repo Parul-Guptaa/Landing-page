@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: transparent;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Optional: Semi-transparent background */
+    padding: 20px;
+    position: fixed; /* Change to fixed */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid white;
+}
+
+.hero-section {
+    background-image: url('background.webp'); /* Use an image similar to your reference */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+
+p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+}
+
+/* Sections Styling */
+section {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 20px 0;
+    background-color:darkcyan ;
+}
+
+/* About Section */
+.about-section {
+    padding: 80px 50px;
+    background-color: white;
+}
+
+/* Services Section */
+.services-section {
+    padding: 80px 50px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(231, 222, 222);
+    padding: 60px;
+}
+
+
+.service {
+    width: 30%;
+    padding: 50px;
+    background-color:  darkcyan;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.services :hover{
+    background-color: rgb(63, 166, 166) ;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    background-color: #333;
+    color: white;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    font-style: italic;
+}
+
+.testimonial h4 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 80px 50px;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Change to relative */
+    bottom: 0;
+    width: 100%;
+}
